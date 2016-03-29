@@ -41,6 +41,9 @@
           <archive>
             <manifestEntries>
               <Agent-Class>${Agent}</Agent-Class>
+              <Premain-Class>${Agent}</Premain-Class>
+              <Can-Redefine-Classes>true</Can-Redefine-Classes>
+              <Can-Retransform-Classes>true</Can-Retransform-Classes>
             </manifestEntries>
           </archive>
         </configuration>
