@@ -6,8 +6,7 @@ import java.lang.instrument.Instrumentation;
 public class Agent {
 	
 	public static void agentmain(String args, Instrumentation inst) {
-		ClassTransformer transformer = new ClassTransformer(); 
-		System.out.println(inst.toString());
+		ClassTransformer transformer = new ClassTransformer();
 		inst.addTransformer((ClassFileTransformer) transformer);
 	}
 

@@ -30,6 +30,14 @@
     <scope>system</scope>
     <systemPath>${JAVA_HOME}/lib/tools.jar</systemPath>
 </dependency>  
+	<!-- http://mvnrepository.com/artifact/org.ow2.asm/asm -->
+<dependency>
+    <groupId>org.ow2.asm</groupId>
+    <artifactId>asm</artifactId>
+    <version>4.0</version>
+</dependency>
+
+	
   </dependencies>
   
   <build>
