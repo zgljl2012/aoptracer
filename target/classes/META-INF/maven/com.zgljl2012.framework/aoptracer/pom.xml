@@ -12,7 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <JAVA_HOME>E:/jdk1.8.0_20</JAVA_HOME>
+    <JAVA_HOME>D:/jdk1.7</JAVA_HOME>
     <Agent>com.zgljl2012.framework.aoptracer.Agent</Agent>
   </properties>
 

@@ -3,6 +3,8 @@ package com.zgljl2012.framework.aoptracer;
 import java.lang.management.ManagementFactory;
 import java.lang.management.RuntimeMXBean;
 
+import com.sun.tools.attach.VirtualMachine;
+
 public class MyJavaAgentLoader {
 	
 	public static String jarFilePath = "C:\\Users\\Administrator\\.m2\\repository\\com\\zgljl2012\\framework"

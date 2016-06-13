@@ -1,6 +1,5 @@
 package com.zgljl2012.framework.aoptracer;
 
-import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.Instrumentation;
 
 public class Agent {
@@ -9,9 +8,7 @@ public class Agent {
 	
 	public static void agentmain(String args, Instrumentation inst) {
 		ClassTransformer transformer = new ClassTransformer();
-		inst.addTransformer((ClassFileTransformer) transformer);
 		Agent.inst = inst;
-		System.out.println("Hello Agent");
 		inst.addTransformer(transformer);
 	}
 	
