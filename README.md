@@ -1,10 +1,10 @@
 
-##»ùÓÚAOPÊµÏÖµÄJavaĞÔÄÜ¼à²â°ü
+## åŸºäºAOPå®ç°çš„Javaæ€§èƒ½ç›‘æµ‹åŒ…
 
-ÀûÓÃJava Instrument½Ó¿ÚÊµÏÖAOP
-ÀûÓÃAOPÊµÏÖÒ»¸ö¶¯Ì¬¼à²âJavaĞÔÄÜµÄAgent
-ÀûÓÃtools°üÀïµÄattachÊµÏÖ¸øjava³ÌĞòÌí¼ÓAgent
+åˆ©ç”¨Java Instrumentæ¥å£å®ç°AOP
+åˆ©ç”¨AOPå®ç°ä¸€ä¸ªåŠ¨æ€ç›‘æµ‹Javaæ€§èƒ½çš„Agent
+åˆ©ç”¨toolsåŒ…é‡Œçš„attachå®ç°ç»™javaç¨‹åºæ·»åŠ Agent
 
-###°²×°
+### å®‰è£…
 
-- Java°æ±¾ 1.6ÒÔÉÏ
+- Javaç‰ˆæœ¬ 1.6ä»¥ä¸Š
